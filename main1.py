@@ -73,10 +73,10 @@ def generate(userInput):
     return json.loads(completion.choices[0].message.content)
 
 
-st.title("👔 Viral LinkedIn Generator")
-st.write("Convert your mundane reality into 'Thought Leadership' gold.")
+st.title("👔 Cringe LinkedIn Generator")
+st.write("Didnt do anyhting good..let me handel....")
 
-userThought = st.text_area("What happened today?", placeholder="Ex: I forgot my laptop charger...", height=100)
+userThought = st.text_area("What happened today?", placeholder="Ex: I forgot my laptop charger.../Spilled coffee...", height=100)
 generate_btn = st.button("Generate Alpha Content 🚀", use_container_width=True)
 
 if generate_btn and userThought:
