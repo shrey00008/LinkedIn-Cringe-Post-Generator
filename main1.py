@@ -77,7 +77,7 @@ st.title("👔 Cringe LinkedIn Generator")
 st.write("Didnt do anyhting good..let me handel....")
 
 userThought = st.text_area("What happened today?", placeholder="Ex: I forgot my laptop charger.../Spilled coffee...", height=100)
-generate_btn = st.button("Generate Alpha Content 🚀", use_container_width=True)
+generate_btn = st.button("Generate Alpha Content...If you see error Rerun 🚀", use_container_width=True)
 
 if generate_btn and userThought:
     with st.spinner("Extracting 'thought leadership'...."):
